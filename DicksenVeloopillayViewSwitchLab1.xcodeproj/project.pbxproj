@@ -16,6 +16,8 @@
 		EEC2F81F28EE4BC1008FB887 /* DicksenVeloopillayViewSwitchLab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F81E28EE4BC1008FB887 /* DicksenVeloopillayViewSwitchLab1UITests.swift */; };
 		EEC2F82128EE4BC1008FB887 /* DicksenVeloopillayViewSwitchLab1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F82028EE4BC1008FB887 /* DicksenVeloopillayViewSwitchLab1UITestsLaunchTests.swift */; };
 		EEC2F82E28EE508B008FB887 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F82D28EE508B008FB887 /* SwitchingViewController.swift */; };
+		EEC2F83028EE51BB008FB887 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F82F28EE51BB008FB887 /* BlueViewController.swift */; };
+		EEC2F83228EE51DE008FB887 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F83128EE51DE008FB887 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EEC2F81E28EE4BC1008FB887 /* DicksenVeloopillayViewSwitchLab1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicksenVeloopillayViewSwitchLab1UITests.swift; sourceTree = "<group>"; };
 		EEC2F82028EE4BC1008FB887 /* DicksenVeloopillayViewSwitchLab1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicksenVeloopillayViewSwitchLab1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EEC2F82D28EE508B008FB887 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		EEC2F82F28EE51BB008FB887 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		EEC2F83128EE51DE008FB887 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				EEC2F7FD28EE4BBF008FB887 /* AppDelegate.swift */,
 				EEC2F7FF28EE4BBF008FB887 /* SceneDelegate.swift */,
 				EEC2F80328EE4BBF008FB887 /* Main.storyboard */,
+				EEC2F83128EE51DE008FB887 /* YellowViewController.swift */,
+				EEC2F82F28EE51BB008FB887 /* BlueViewController.swift */,
+				EEC2F82D28EE508B008FB887 /* SwitchingViewController.swift */,
 				EEC2F80628EE4BC1008FB887 /* Assets.xcassets */,
 				EEC2F80828EE4BC1008FB887 /* LaunchScreen.storyboard */,
 				EEC2F80B28EE4BC1008FB887 /* Info.plist */,
-				EEC2F82D28EE508B008FB887 /* SwitchingViewController.swift */,
 			);
 			path = DicksenVeloopillayViewSwitchLab1;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				EEC2F7FE28EE4BBF008FB887 /* AppDelegate.swift in Sources */,
 				EEC2F80028EE4BBF008FB887 /* SceneDelegate.swift in Sources */,
+				EEC2F83028EE51BB008FB887 /* BlueViewController.swift in Sources */,
 				EEC2F82E28EE508B008FB887 /* SwitchingViewController.swift in Sources */,
+				EEC2F83228EE51DE008FB887 /* YellowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
